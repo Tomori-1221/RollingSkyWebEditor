@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/PaALYTO.jpg">
+    <title>Rolling Sky Web Ediroe</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f0f0f0; /* 背景设置为淡灰色 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        #container {
+            background-color: #fff; /* 容器为白色 */
+            border-radius: 20px;
+            padding: 30px;
+            width: 350px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #9370DB;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            background-color: #9370DB;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 10px 0;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            background-color: #B9D3EE;
+            color: #333;
+            transform: scale(1.05);
+        }
+
+        button:active {
+            background-color: #a6cce0;
+        }
+
+        .avatar {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .avatar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .avatar span {
+            color: #333;
+            font-size: 14px;
+            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Rolling Sky Web Editor</h1>
+
+
+        <button onclick="window.open('assets/webeditor/rolling-sky/level-editor/index.html', '_blank');">Level-Editor 地编编辑器</button>
+        <button onclick="window.open('assets/webeditor/rolling-sky/thumbnail-maker/index.html', '_blank');">Thumbnail-Maker 封面制作器</button>
+        <button onclick="window.open('assets/webeditor/rolling-sky/level-encryptor-sqdl', '_blank');">Level-Encryptor 关卡文件加密</button>
+        <button onclick="window.open('assets/webeditor/rolling-sky/tile-lookup/index.html', '_blank');">Tile-Look-Up 地编查询</button>
+        <button onclick="window.open('assets/webeditor/rolling-sky/colorsets/index.html', '_blank');">Color-Sets 色彩对照表</button>
+        <button onclick="window.open('assets/webeditor/rolling-sky/CmrConvert/index.html', '_blank');">CmrConvert CMR转PNG</button>
+        <button onclick="window.open('assets/webeditor/rolling-sky/PngConvert/index.html', '_blank');">PngConvert PNG转CMR</button>
+
+
+
+        <div class="avatar">
+            <img src="assets/images/PaALYTO.jpg" alt="用户头像" >
+            <a href="https://github.com/Tomori-1221">PaAlyTo</a>
+        </div>
+    </div>
+</body>
+</html>
